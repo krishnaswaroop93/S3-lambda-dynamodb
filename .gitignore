@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform lock (keep it OR ignore based on team choice)
+# .terraform.lock.hcl
+
+# Lambda build files
+lambda/*.zip
+
+# IDE files
+.idea/
+
+# Logs
+*.log
+*.tmp
